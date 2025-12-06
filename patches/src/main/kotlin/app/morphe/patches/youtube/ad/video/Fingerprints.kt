@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.ad.video
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val loadVideoAdsFingerprint = fingerprint {
     strings(

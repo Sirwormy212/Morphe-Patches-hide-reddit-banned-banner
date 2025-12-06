@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.layout.buttons.action
 
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.shared.misc.mapping.resourceMappingPatch

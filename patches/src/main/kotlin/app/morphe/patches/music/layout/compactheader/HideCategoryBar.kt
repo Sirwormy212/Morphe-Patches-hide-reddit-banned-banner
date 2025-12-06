@@ -1,8 +1,8 @@
 package app.morphe.patches.music.layout.compactheader
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
@@ -47,7 +47,7 @@ val hideCategoryBar = bytecodePatch(
         chipCloud = getResourceId(ResourceType.LAYOUT, "chip_cloud")
 
         chipCloudFingerprint.method.apply {
-            val targetIndex = chipCloudFingerprint.patternMatch!!.endIndex
+            val targetIndex = chipCloudFingerprint.instructionMatches.last().index
             val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 
             addInstruction(

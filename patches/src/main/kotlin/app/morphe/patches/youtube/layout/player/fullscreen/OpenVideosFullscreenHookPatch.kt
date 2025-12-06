@@ -1,9 +1,9 @@
 package app.morphe.patches.youtube.layout.player.fullscreen
 
-import app.revanced.patcher.Fingerprint
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.youtube.layout.shortsplayer.openShortsInRegularPlayerPatch
 import app.morphe.patches.youtube.misc.extension.sharedExtensionPatch
 import app.morphe.patches.youtube.misc.playservice.is_19_46_or_greater

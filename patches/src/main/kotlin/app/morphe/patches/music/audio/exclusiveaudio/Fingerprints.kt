@@ -2,7 +2,7 @@ package app.morphe.patches.music.audio.exclusiveaudio
 
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.AccessFlags
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val allowExclusiveAudioPlaybackFingerprint = fingerprint {
     accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)

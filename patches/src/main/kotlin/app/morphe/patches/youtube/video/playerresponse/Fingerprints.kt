@@ -1,7 +1,7 @@
 package app.morphe.patches.youtube.video.playerresponse
 
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.string
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 
 /**

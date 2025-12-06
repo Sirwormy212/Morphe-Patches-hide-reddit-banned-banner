@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.video.speed
 
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.shared.misc.settings.preference.BasePreference
 import app.morphe.patches.shared.misc.settings.preference.PreferenceCategory
 import app.morphe.patches.shared.misc.settings.preference.PreferenceScreenPreference.Sorting

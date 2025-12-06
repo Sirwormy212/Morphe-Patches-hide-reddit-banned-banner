@@ -1,10 +1,10 @@
 package app.morphe.patches.shared.misc.dns
 
-import app.revanced.patcher.Fingerprint
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.patch.BytecodePatchBuilder
-import app.revanced.patcher.patch.BytecodePatchContext
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.patch.BytecodePatchBuilder
+import app.morphe.patcher.patch.BytecodePatchContext
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.resources.addResources
 
 private const val EXTENSION_CLASS_DESCRIPTOR =

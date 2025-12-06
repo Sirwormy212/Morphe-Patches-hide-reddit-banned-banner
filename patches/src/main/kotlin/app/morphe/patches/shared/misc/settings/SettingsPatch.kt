@@ -1,8 +1,8 @@
 package app.morphe.patches.shared.misc.settings
 
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patches.all.misc.resources.addResource
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch

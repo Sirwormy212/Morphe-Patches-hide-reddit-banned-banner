@@ -1,7 +1,7 @@
 package app.morphe.patches.music.misc.fileprovider
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.packagename.setOrGetFallbackPackageName
 import app.morphe.patches.music.utils.fix.fileprovider.fileProviderResolverFingerprint
 

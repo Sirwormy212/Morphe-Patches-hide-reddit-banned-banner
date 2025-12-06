@@ -1,6 +1,6 @@
 package app.morphe.patches.shared.misc.checks
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val patchInfoFingerprint = fingerprint {
     custom { _, classDef -> classDef.type == "Lapp/morphe/extension/shared/checks/PatchInfo;" }

@@ -1,11 +1,11 @@
 package app.morphe.patches.youtube.layout.returnyoutubedislike
 
-import app.revanced.patcher.InstructionLocation
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.newInstance
-import app.revanced.patcher.string
+import app.morphe.patcher.InstructionLocation
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.newInstance
+import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 

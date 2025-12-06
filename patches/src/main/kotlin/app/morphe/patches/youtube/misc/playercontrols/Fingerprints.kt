@@ -1,11 +1,11 @@
 package app.morphe.patches.youtube.misc.playercontrols
 
-import app.revanced.patcher.InstructionLocation.MatchAfterImmediately
-import app.revanced.patcher.checkCast
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.opcode
+import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
+import app.morphe.patcher.checkCast
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.opcode
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral
 import com.android.tools.smali.dexlib2.AccessFlags

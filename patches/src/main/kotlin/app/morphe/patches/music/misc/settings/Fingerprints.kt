@@ -1,6 +1,6 @@
 package app.morphe.patches.music.misc.settings
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val googleApiActivityFingerprint = fingerprint {
     returns("V")

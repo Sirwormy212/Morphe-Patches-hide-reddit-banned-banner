@@ -4,8 +4,8 @@ import app.morphe.util.FreeRegisterProvider.Companion.branchOpcodes
 import app.morphe.util.FreeRegisterProvider.Companion.conditionalBranchOpcodes
 import app.morphe.util.FreeRegisterProvider.Companion.returnOpcodes
 import app.morphe.util.FreeRegisterProvider.Companion.writeOpcodes
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.instructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import com.android.tools.smali.dexlib2.Format
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.Opcode.*

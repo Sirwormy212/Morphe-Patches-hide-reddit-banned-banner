@@ -1,11 +1,11 @@
 package app.morphe.patches.shared.layout.theme
 
-import app.revanced.patcher.patch.BytecodePatchBuilder
-import app.revanced.patcher.patch.BytecodePatchContext
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patcher.patch.stringOption
+import app.morphe.patcher.patch.BytecodePatchBuilder
+import app.morphe.patcher.patch.BytecodePatchContext
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.stringOption
 import app.morphe.util.childElementsSequence
 import java.util.Locale
 

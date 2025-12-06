@@ -1,9 +1,9 @@
 package app.morphe.patches.youtube.layout.startpage
 
-import app.revanced.patcher.fieldAccess
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.string
+import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.Opcode
 
 internal val intentActionFingerprint = fingerprint {

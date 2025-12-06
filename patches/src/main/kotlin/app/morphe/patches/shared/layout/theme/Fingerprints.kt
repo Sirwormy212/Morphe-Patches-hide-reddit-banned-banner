@@ -1,10 +1,10 @@
 package app.morphe.patches.shared.layout.theme
 
-import app.revanced.patcher.InstructionLocation.MatchAfterImmediately
-import app.revanced.patcher.InstructionLocation.MatchAfterWithin
-import app.revanced.patcher.fieldAccess
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.methodCall
+import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
+import app.morphe.patcher.InstructionLocation.MatchAfterWithin
+import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.methodCall
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 

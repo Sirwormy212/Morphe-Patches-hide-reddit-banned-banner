@@ -1,11 +1,11 @@
 package app.morphe.patches.shared.misc.spoof
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.util.getReference
 import app.morphe.util.indexOfFirstInstruction
-import app.revanced.patcher.literal
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.string
+import app.morphe.patcher.literal
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.Method

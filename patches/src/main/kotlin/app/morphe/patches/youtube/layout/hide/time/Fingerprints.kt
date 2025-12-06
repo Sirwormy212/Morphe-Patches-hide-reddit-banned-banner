@@ -1,10 +1,10 @@
 package app.morphe.patches.youtube.layout.hide.time
 
-import app.revanced.patcher.InstructionLocation.*
-import app.revanced.patcher.fieldAccess
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.opcode
+import app.morphe.patcher.InstructionLocation.*
+import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.opcode
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 

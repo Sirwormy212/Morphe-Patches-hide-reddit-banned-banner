@@ -1,7 +1,7 @@
 package app.morphe.patches.youtube.layout.hide.infocards
 
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.string
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.string
 import app.morphe.util.literal
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode

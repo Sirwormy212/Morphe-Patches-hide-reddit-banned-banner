@@ -1,9 +1,9 @@
 package app.morphe.patches.youtube.misc.settings
 
-import app.revanced.patcher.InstructionLocation.MatchAfterWithin
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.opcode
+import app.morphe.patcher.InstructionLocation.MatchAfterWithin
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.opcode
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral
 import com.android.tools.smali.dexlib2.AccessFlags

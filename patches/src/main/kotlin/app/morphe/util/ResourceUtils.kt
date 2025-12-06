@@ -1,8 +1,8 @@
 package app.morphe.util
 
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.ResourcePatchContext
-import app.revanced.patcher.util.Document
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.ResourcePatchContext
+import app.morphe.patcher.util.Document
 import app.morphe.util.resource.BaseResource
 import org.w3c.dom.Attr
 import org.w3c.dom.Element

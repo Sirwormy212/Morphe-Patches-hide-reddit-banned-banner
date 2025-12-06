@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.layout.player.fullscreen
 
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.shared.misc.settings.preference.ListPreference

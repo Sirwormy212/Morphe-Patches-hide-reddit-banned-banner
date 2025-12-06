@@ -1,7 +1,7 @@
 package app.morphe.patches.all.misc.transformation
 
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import app.morphe.util.findMutableMethodOf
 import com.android.tools.smali.dexlib2.iface.ClassDef
 import com.android.tools.smali.dexlib2.iface.Method
@@ -20,7 +20,7 @@ fun <T> transformInstructionsPatch(
     execute {
         // Find all methods to patch
         buildMap {
-            classes.forEach { classDef ->
+            classDefForEach { classDef ->
                 val methods = buildList {
                     classDef.methods.forEach { method ->
                         // Since the Sequence executes lazily,

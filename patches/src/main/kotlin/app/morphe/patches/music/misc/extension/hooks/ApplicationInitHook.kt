@@ -1,6 +1,6 @@
 package app.morphe.patches.music.misc.extension.hooks
 
-import app.revanced.patcher.string
+import app.morphe.patcher.string
 import app.morphe.patches.music.shared.YOUTUBE_MUSIC_MAIN_ACTIVITY_CLASS_TYPE
 import app.morphe.patches.shared.misc.extension.activityOnCreateExtensionHook
 import app.morphe.patches.shared.misc.extension.extensionHook

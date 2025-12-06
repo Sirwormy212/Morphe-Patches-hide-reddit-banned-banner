@@ -1,7 +1,7 @@
 package app.morphe.patches.music.misc.androidauto
 
 import com.android.tools.smali.dexlib2.AccessFlags
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val checkCertificateFingerprint = fingerprint {
     returns("Z")

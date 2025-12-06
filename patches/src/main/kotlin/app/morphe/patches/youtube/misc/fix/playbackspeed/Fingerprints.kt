@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.misc.fix.playbackspeed
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.util.getReference
 import app.morphe.util.indexOfFirstInstructionReversed
 import com.android.tools.smali.dexlib2.AccessFlags

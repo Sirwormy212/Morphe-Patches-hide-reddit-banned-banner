@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.layout.panels.popup
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val engagementPanelControllerFingerprint = fingerprint {
     returns("L")

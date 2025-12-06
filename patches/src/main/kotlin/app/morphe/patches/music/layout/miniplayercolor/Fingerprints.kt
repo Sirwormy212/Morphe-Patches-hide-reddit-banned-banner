@@ -1,6 +1,6 @@
 package app.morphe.patches.music.layout.miniplayercolor
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral
 import com.android.tools.smali.dexlib2.AccessFlags

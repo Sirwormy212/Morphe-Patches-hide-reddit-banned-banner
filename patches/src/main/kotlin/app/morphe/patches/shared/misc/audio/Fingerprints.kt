@@ -1,7 +1,7 @@
 package app.morphe.patches.shared.misc.audio
 
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
 import com.android.tools.smali.dexlib2.AccessFlags
 
 internal val formatStreamModelToStringFingerprint = fingerprint {

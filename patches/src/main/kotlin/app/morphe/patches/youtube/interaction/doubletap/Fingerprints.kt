@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.interaction.doubletap
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
 
 internal val seekTypeEnumFingerprint = fingerprint {

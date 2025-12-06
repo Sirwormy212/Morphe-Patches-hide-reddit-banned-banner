@@ -1,7 +1,7 @@
 package app.morphe.patches.shared.misc.spoof
 
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patches.all.misc.transformation.IMethodCall
 import app.morphe.patches.all.misc.transformation.filterMapInstruction35c
 import app.morphe.patches.all.misc.transformation.transformInstructionsPatch

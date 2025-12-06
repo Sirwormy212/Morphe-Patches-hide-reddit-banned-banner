@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.ad.general
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.util.containsLiteralInstruction
 import app.morphe.util.getReference
 import app.morphe.util.indexOfFirstInstructionReversed

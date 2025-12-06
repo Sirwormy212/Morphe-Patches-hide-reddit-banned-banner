@@ -1,6 +1,6 @@
 package app.morphe.patches.music.layout.branding
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.patches.music.shared.YOUTUBE_MUSIC_MAIN_ACTIVITY_CLASS_TYPE
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral

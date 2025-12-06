@@ -1,18 +1,18 @@
 package app.morphe.patches.shared.misc.gms
 
-import app.revanced.patcher.Fingerprint
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.instructions
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
-import app.revanced.patcher.patch.BytecodePatchBuilder
-import app.revanced.patcher.patch.BytecodePatchContext
-import app.revanced.patcher.patch.Option
-import app.revanced.patcher.patch.Patch
-import app.revanced.patcher.patch.ResourcePatchBuilder
-import app.revanced.patcher.patch.ResourcePatchContext
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patcher.patch.stringOption
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.instructions
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.patch.BytecodePatchBuilder
+import app.morphe.patcher.patch.BytecodePatchContext
+import app.morphe.patcher.patch.Option
+import app.morphe.patcher.patch.Patch
+import app.morphe.patcher.patch.ResourcePatchBuilder
+import app.morphe.patcher.patch.ResourcePatchContext
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.stringOption
 import app.morphe.patches.all.misc.packagename.changePackageNamePatch
 import app.morphe.patches.all.misc.packagename.setOrGetFallbackPackageName
 import app.morphe.patches.all.misc.resources.addResources
@@ -66,6 +66,8 @@ fun gmsCoreSupportPatch(
     description = "Allows the app to work without root by using a different package name when patched " +
         "using a GmsCore instead of Google Play Services.",
 ) {
+
+    // FIXME: Change this to a hard coded value.
     val gmsCoreVendorGroupIdOption = stringOption(
         key = "gmsCoreVendorGroupId",
         default = "app.revanced",
@@ -87,7 +89,7 @@ fun gmsCoreSupportPatch(
     val gmsCoreVendorGroupId by gmsCoreVendorGroupIdOption
 
     execute {
-        fun transformStringReferences(transform: (str: String) -> String?) = classes.forEach {
+        fun transformStringReferences(transform: (str: String) -> String?) = classDefForEach {
             val mutableClass by lazy {
                 mutableClassDefBy(it)
             }

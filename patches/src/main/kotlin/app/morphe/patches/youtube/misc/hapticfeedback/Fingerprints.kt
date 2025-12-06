@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.misc.hapticfeedback
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val markerHapticsFingerprint = fingerprint {
     returns("V")

@@ -1,10 +1,10 @@
 package app.morphe.patches.music.layout.navigationbar
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
@@ -101,7 +101,7 @@ val navigationBarPatch = bytecodePatch(
             )
 
             // Set navigation enum and hide navigation buttons.
-            val enumIndex = tabLayoutTextFingerprint.patternMatch!!.startIndex + 3
+            val enumIndex = tabLayoutTextFingerprint.instructionMatches.first().index + 3
             val enumRegister = getInstruction<OneRegisterInstruction>(enumIndex).registerA
             val insertEnumIndex = indexOfFirstInstructionOrThrow(Opcode.AND_INT_LIT8) - 2
 

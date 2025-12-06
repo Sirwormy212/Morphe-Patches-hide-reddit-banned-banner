@@ -1,6 +1,6 @@
 package app.morphe.patches.shared.layout.branding
 
-import app.revanced.patcher.patch.rawResourcePatch
+import app.morphe.patcher.patch.rawResourcePatch
 import app.morphe.util.inputStreamFromBundledResource
 import java.nio.file.Files
 

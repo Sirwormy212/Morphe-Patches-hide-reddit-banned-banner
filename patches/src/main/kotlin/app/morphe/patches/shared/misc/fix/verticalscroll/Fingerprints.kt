@@ -2,7 +2,7 @@ package app.morphe.patches.shared.misc.fix.verticalscroll
 
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.AccessFlags
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val canScrollVerticallyFingerprint = fingerprint {
     accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)

@@ -13,13 +13,13 @@ import app.morphe.util.Utils.trimIndentMultiline
 import app.morphe.util.copyResources
 import app.morphe.util.findElementByAttributeValueOrThrow
 import app.morphe.util.forEachLiteralValueInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patcher.patch.stringOption
-import app.revanced.patcher.util.Document
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.stringOption
+import app.morphe.patcher.util.Document
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import java.io.File
 

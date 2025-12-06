@@ -1,13 +1,13 @@
 package app.morphe.patches.youtube.interaction.seekbar
 
-import app.revanced.patcher.InstructionLocation.MatchAfterImmediately
-import app.revanced.patcher.InstructionLocation.MatchAfterWithin
-import app.revanced.patcher.fieldAccess
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.newInstance
-import app.revanced.patcher.opcode
+import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
+import app.morphe.patcher.InstructionLocation.MatchAfterWithin
+import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.newInstance
+import app.morphe.patcher.opcode
 import app.morphe.patches.youtube.misc.playservice.is_19_34_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_19_47_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_20_19_or_greater

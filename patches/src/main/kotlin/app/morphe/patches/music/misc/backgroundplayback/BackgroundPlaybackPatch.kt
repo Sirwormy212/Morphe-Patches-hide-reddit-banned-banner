@@ -1,6 +1,6 @@
 package app.morphe.patches.music.misc.backgroundplayback
 
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
 import app.morphe.patches.music.misc.settings.settingsPatch
 import app.morphe.util.returnEarly

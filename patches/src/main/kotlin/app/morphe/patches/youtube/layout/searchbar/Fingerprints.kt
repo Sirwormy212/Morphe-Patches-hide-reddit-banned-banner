@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.layout.searchbar
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral
 import app.morphe.patches.youtube.layout.hide.general.yoodlesImageViewFingerprint

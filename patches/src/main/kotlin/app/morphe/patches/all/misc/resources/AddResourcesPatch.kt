@@ -5,10 +5,10 @@ import app.morphe.util.asSequence
 import app.morphe.util.forEachChildElement
 import app.morphe.util.getNode
 import app.morphe.util.inputStreamFromBundledResource
-import app.revanced.patcher.patch.Patch
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patcher.util.Document
+import app.morphe.patcher.patch.Patch
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.resourcePatch
+import app.morphe.patcher.util.Document
 import app.morphe.util.resource.ArrayResource
 import app.morphe.util.resource.BaseResource
 import app.morphe.util.resource.StringResource

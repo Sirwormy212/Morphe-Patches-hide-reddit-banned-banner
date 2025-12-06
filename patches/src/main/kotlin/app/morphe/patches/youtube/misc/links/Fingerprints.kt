@@ -1,9 +1,9 @@
 package app.morphe.patches.youtube.misc.links
 
-import app.revanced.patcher.StringComparisonType
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.string
+import app.morphe.patcher.StringComparisonType
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 
 /**

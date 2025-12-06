@@ -1,11 +1,11 @@
 package app.morphe.patches.youtube.video.information
 
-import app.revanced.patcher.InstructionLocation.MatchAfterWithin
-import app.revanced.patcher.fieldAccess
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.string
+import app.morphe.patcher.InstructionLocation.MatchAfterWithin
+import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.string
 import app.morphe.patches.youtube.shared.videoQualityChangedFingerprint
 import app.morphe.util.getReference
 import com.android.tools.smali.dexlib2.AccessFlags

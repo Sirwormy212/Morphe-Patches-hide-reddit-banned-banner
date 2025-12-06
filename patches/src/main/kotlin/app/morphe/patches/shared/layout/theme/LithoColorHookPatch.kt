@@ -1,7 +1,7 @@
 package app.morphe.patches.shared.layout.theme
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.patch.bytecodePatch
 
 lateinit var lithoColorOverrideHook: (targetMethodClass: String, targetMethodName: String) -> Unit
     private set
@@ -11,7 +11,7 @@ val lithoColorHookPatch = bytecodePatch(
 ) {
 
     execute {
-        var insertionIndex = lithoOnBoundsChangeFingerprint.patternMatch!!.endIndex - 1
+        var insertionIndex = lithoOnBoundsChangeFingerprint.instructionMatches.last().index - 1
 
         lithoColorOverrideHook = { targetMethodClass, targetMethodName ->
             lithoOnBoundsChangeFingerprint.method.addInstructions(

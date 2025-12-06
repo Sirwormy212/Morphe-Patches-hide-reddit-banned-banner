@@ -1,10 +1,10 @@
 package app.morphe.patches.shared.misc.mapping
 
-import app.revanced.patcher.InstructionLocation
-import app.revanced.patcher.LiteralFilter
-import app.revanced.patcher.literal
-import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.InstructionLocation
+import app.morphe.patcher.LiteralFilter
+import app.morphe.patcher.literal
+import app.morphe.patcher.patch.PatchException
+import app.morphe.patcher.patch.resourcePatch
 import org.w3c.dom.Element
 import java.util.Collections
 

@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.misc.backgroundplayback
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.util.literal
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -76,7 +76,7 @@ internal val backgroundPlaybackManagerShortsFingerprint = fingerprint {
     returns("Z")
     parameters("L")
     instructions(
-        app.revanced.patcher.literal(151635310)
+        app.morphe.patcher.literal(151635310)
     )
 }
 
@@ -85,7 +85,7 @@ internal val shortsBackgroundPlaybackFeatureFlagFingerprint = fingerprint {
     returns("Z")
     parameters()
     instructions(
-        app.revanced.patcher.literal(45415425)
+        app.morphe.patcher.literal(45415425)
     )
 }
 
@@ -93,6 +93,6 @@ internal val shortsBackgroundPlaybackFeatureFlagFingerprint = fingerprint {
 internal val pipInputConsumerFeatureFlagFingerprint = fingerprint {
     instructions(
         // PiP input consumer feature flag.
-        app.revanced.patcher.literal(45638483L)
+        app.morphe.patcher.literal(45638483L)
     )
 }

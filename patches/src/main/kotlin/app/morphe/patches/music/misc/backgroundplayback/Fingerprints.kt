@@ -2,8 +2,8 @@ package app.morphe.patches.music.misc.backgroundplayback
 
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.AccessFlags
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
 
 internal val backgroundPlaybackDisableFingerprint = fingerprint {
     accessFlags(AccessFlags.PUBLIC, AccessFlags.STATIC)

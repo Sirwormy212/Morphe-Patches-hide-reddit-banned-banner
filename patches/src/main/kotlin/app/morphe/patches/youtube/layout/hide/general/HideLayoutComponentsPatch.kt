@@ -1,17 +1,17 @@
 package app.morphe.patches.youtube.layout.hide.general
 
-import app.revanced.patcher.Fingerprint
-import app.revanced.patcher.Match
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.instructions
-import app.revanced.patcher.extensions.InstructionExtensions.removeInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
-import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.patch.resourcePatch
-import app.revanced.patcher.util.smali.ExternalLabel
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.Match
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.instructions
+import app.morphe.patcher.extensions.InstructionExtensions.removeInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.resourcePatch
+import app.morphe.patcher.util.smali.ExternalLabel
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.shared.misc.mapping.ResourceType
@@ -391,7 +391,7 @@ val hideLayoutComponentsPatch = bytecodePatch(
         // region hide view count
 
         hideViewCountFingerprint.method.apply {
-            val startIndex = hideViewCountFingerprint.patternMatch!!.startIndex
+            val startIndex = hideViewCountFingerprint.instructionMatches.first().index
             var returnStringRegister = getInstruction<OneRegisterInstruction>(startIndex).registerA
 
             // Find the instruction where the text dimension is retrieved.

@@ -1,8 +1,8 @@
 package app.morphe.patches.music.layout.branding
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
 import app.morphe.patches.music.misc.gms.Constants.MUSIC_MAIN_ACTIVITY_NAME
 import app.morphe.patches.music.misc.gms.Constants.MUSIC_PACKAGE_NAME

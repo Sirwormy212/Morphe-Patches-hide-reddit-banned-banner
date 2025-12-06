@@ -1,7 +1,7 @@
 package app.morphe.patches.youtube.video.speed.remember
 
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.string
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.string
 
 internal val initializePlaybackSpeedValuesFingerprint = fingerprint {
     parameters("[L", "I")

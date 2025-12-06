@@ -1,6 +1,6 @@
 package app.morphe.patches.shared.misc.settings
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.patches.shared.misc.extension.EXTENSION_CLASS_DESCRIPTOR
 import com.android.tools.smali.dexlib2.AccessFlags
 

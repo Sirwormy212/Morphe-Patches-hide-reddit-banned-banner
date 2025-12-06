@@ -1,6 +1,6 @@
 package app.morphe.patches.all.misc.debugging
 
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.resourcePatch
 import org.w3c.dom.Element
 
 @Suppress("unused")

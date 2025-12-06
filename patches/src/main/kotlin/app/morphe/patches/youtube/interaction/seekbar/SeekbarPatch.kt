@@ -1,6 +1,6 @@
 package app.morphe.patches.youtube.interaction.seekbar
 
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.bytecodePatch
 
 @Suppress("unused")
 val seekbarPatch = bytecodePatch(

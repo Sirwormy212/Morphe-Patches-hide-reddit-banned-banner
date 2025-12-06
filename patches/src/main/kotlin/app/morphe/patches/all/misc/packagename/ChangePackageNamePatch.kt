@@ -1,6 +1,6 @@
 package app.morphe.patches.all.misc.packagename
 
-import app.revanced.patcher.patch.*
+import app.morphe.patcher.patch.*
 import app.morphe.util.asSequence
 import app.morphe.util.getNode
 import org.w3c.dom.Element

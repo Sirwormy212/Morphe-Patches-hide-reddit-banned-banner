@@ -2,8 +2,8 @@
 
 package app.morphe.patches.music.layout.miniplayercolor
 
-import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.resources.addResources
 import app.morphe.patches.all.misc.resources.addResourcesPatch
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
@@ -52,7 +52,7 @@ val changeMiniplayerColor = bytecodePatch(
         )
 
         switchToggleColorFingerprint.match(miniPlayerConstructorFingerprint.classDef).let {
-            val relativeIndex = it.patternMatch.endIndex + 1
+            val relativeIndex = it.instructionMatches.last().index + 1
 
             val invokeVirtualIndex = it.method.indexOfFirstInstructionOrThrow(
                 relativeIndex, Opcode.INVOKE_VIRTUAL

@@ -2,7 +2,7 @@
 
 package app.morphe.patches.youtube.misc.playservice
 
-import app.revanced.patcher.patch.resourcePatch
+import app.morphe.patcher.patch.resourcePatch
 import app.morphe.util.findPlayStoreServicesVersion
 import kotlin.properties.Delegates
 

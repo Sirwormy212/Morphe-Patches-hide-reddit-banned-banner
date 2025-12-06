@@ -1,6 +1,6 @@
 package app.morphe.patches.music.misc.gms
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val musicActivityOnCreateFingerprint = fingerprint {
     returns("V")

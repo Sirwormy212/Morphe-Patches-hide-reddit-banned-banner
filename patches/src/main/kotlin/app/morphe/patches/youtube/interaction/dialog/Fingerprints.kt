@@ -1,7 +1,7 @@
 package app.morphe.patches.youtube.interaction.dialog
 
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.methodCall
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.methodCall
 
 internal val createDialogFingerprint = fingerprint {
     returns("V")

@@ -1,6 +1,6 @@
 package app.morphe.patches.music.layout.premium
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 

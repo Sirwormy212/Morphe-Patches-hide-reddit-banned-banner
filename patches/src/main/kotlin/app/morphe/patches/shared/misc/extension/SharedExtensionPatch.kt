@@ -1,11 +1,11 @@
 package app.morphe.patches.shared.misc.extension
 
-import app.revanced.patcher.Fingerprint
-import app.revanced.patcher.FingerprintBuilder
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.patch.BytecodePatchContext
-import app.revanced.patcher.patch.bytecodePatch
+import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.FingerprintBuilder
+import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.patch.BytecodePatchContext
+import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.util.returnEarly
 import com.android.tools.smali.dexlib2.iface.Method
 import java.net.URLDecoder

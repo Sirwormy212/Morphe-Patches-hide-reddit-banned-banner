@@ -1,6 +1,6 @@
 package app.morphe.patches.music.utils.fix.fileprovider
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 
 internal val fileProviderResolverFingerprint = fingerprint {
     returns("L")

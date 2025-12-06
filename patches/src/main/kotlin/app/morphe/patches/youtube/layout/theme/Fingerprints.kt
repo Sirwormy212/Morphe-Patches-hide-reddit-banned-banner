@@ -1,8 +1,8 @@
 package app.morphe.patches.youtube.layout.theme
 
-import app.revanced.patcher.anyInstruction
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.literal
+import app.morphe.patcher.anyInstruction
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.literal
 import app.morphe.patches.youtube.shared.YOUTUBE_MAIN_ACTIVITY_CLASS_TYPE
 
 internal val useGradientLoadingScreenFingerprint = fingerprint {

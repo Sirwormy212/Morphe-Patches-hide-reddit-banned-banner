@@ -1,6 +1,6 @@
 package app.morphe.patches.music.layout.buttons
 
-import app.revanced.patcher.fingerprint
+import app.morphe.patcher.fingerprint
 import app.morphe.util.containsLiteralInstruction
 import app.morphe.util.literal
 import com.android.tools.smali.dexlib2.AccessFlags

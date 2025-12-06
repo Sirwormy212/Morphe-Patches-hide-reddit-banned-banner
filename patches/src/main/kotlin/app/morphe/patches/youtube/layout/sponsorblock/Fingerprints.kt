@@ -1,10 +1,10 @@
 package app.morphe.patches.youtube.layout.sponsorblock
 
-import app.revanced.patcher.InstructionLocation.*
-import app.revanced.patcher.checkCast
-import app.revanced.patcher.fingerprint
-import app.revanced.patcher.methodCall
-import app.revanced.patcher.opcode
+import app.morphe.patcher.InstructionLocation.*
+import app.morphe.patcher.checkCast
+import app.morphe.patcher.fingerprint
+import app.morphe.patcher.methodCall
+import app.morphe.patcher.opcode
 import app.morphe.patches.shared.misc.mapping.ResourceType
 import app.morphe.patches.shared.misc.mapping.resourceLiteral
 import app.morphe.patches.youtube.shared.seekbarFingerprint
