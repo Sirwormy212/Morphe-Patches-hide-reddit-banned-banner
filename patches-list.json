@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "1.0.0",
   "patches": [
     {
       "name": "Alternative thumbnails",
@@ -913,6 +913,24 @@
           "20.31.42",
           "20.37.48",
           "20.40.45"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide banned account banner",
+      "description": "Placeholder patch - needs Reddit APK analysis to implement properly.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.reddit.frontpage": [
+          "2025.40.0",
+          "2025.43.0",
+          "2025.45.0",
+          "2025.52.0",
+          "2026.01.0",
+          "2026.02.0",
+          "2026.03.0"
         ]
       },
       "options": []
