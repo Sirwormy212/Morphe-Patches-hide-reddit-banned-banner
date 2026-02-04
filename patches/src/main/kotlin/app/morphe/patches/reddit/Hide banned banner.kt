@@ -1,4 +1,4 @@
-package app.revanced.patches.reddit.layout
+package app.morphe.patches.reddit
 
 import app.revanced.patcher.patch.bytecodePatch
 
